@@ -5009,7 +5009,11 @@ html, body {
 
 .navbar {
   background-color: #fff;
-  border-top: solid 3px #fb3338; }
+  border-top: solid 3px #fb3338;
+  min-height: 100px;
+  padding-top: 22px;
+  padding-left: 40px;
+  padding-right: 40px; }
   .navbar .navbar-header .logo {
     height: 50px;
     line-height: 50px;
@@ -5050,5 +5054,16 @@ a {
 a:hover, a:focus {
   color: #fb3338;
   text-decoration: none; }
+
+.carousel-indicators li {
+  opacity: 0.6;
+  background-color: #fb3338; }
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #fb3338; }
+
+.carousel-indicators li {
+  border-color: transparent; }
 
 /*# sourceMappingURL=bootstrap.css.map */

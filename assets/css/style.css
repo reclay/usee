@@ -20,7 +20,7 @@ img {
     background-color: #fff; }
 
 .content {
-  padding-top: 50px; }
+  padding-top: 100px; }
 
 .consulting-body li.consulting a, .index-body li.home a,
 .products-body li.products a, .customers-body li.customers a,
@@ -61,10 +61,11 @@ img {
     height: 60px; }
 
 .content.consulting-content {
-  padding-top: 50px; }
+  margin-top: 100px;
+  padding-top: 0; }
   .content.consulting-content .section-1 {
     background: url(../img/con1.jpg) no-repeat center center;
-    min-height: 630px;
+    min-height: 400px;
     border-bottom: 1px solid #fb3338; }
   .content.consulting-content .section-2 .cover-img {
     background: url(../img/con2.jpg) no-repeat center center;
@@ -88,23 +89,50 @@ img {
       font-size: 18px; }
 
 .content.index-content .section-1 {
-  min-height: 600px; }
+  min-height: 400px; }
   .content.index-content .section-1 img {
-    height: 600px; }
+    height: 400px; }
   .content.index-content .section-1 i {
     color: #fb3338;
     font-size: 40px; }
+.content.index-content .section-2 {
+  padding-bottom: 50px; }
+  .content.index-content .section-2 h2 {
+    padding-top: 100px;
+    padding-bottom: 70px; }
+  .content.index-content .section-2 .section-2-cover {
+    background: url(../img/index23.jpg) no-repeat center center;
+    min-height: 530px;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover; }
+  .content.index-content .section-2 .po-relative {
+    position: relative; }
+    .content.index-content .section-2 .po-relative img {
+      height: 430px;
+      width: auto;
+      max-width: 260px;
+      position: absolute;
+      top: -120px;
+      right: 30px; }
+  .content.index-content .section-2 .section-right img {
+    max-height: 220px;
+    width: auto;
+    max-width: 100%; }
+  .content.index-content .section-2 .section-right p {
+    padding-top: 20px;
+    line-height: 22px; }
 .content.index-content .section-3 {
-  background: url(../img/index-1.jpg) no-repeat center center;
+  background: url(../img/eyes.jpg) no-repeat center center;
   border-bottom: 1px solid #fb3338;
-  min-height: 410px; }
+  min-height: 400px; }
   .content.index-content .section-3 h2 {
     color: #fb3338;
     padding-top: 190px;
     padding-left: 100px; }
 .content.index-content .section-4-bottom {
   background: url(../img/index-2.jpg) no-repeat center center;
-  border-bottom: 1px solid #fb3338;
   min-height: 350px; }
 .content.index-content .cover-img {
   padding: 0;
@@ -119,7 +147,9 @@ img {
       background-color: #fb3338;
       color: #fff;
       margin: 0;
-      padding: 10px 0; }
+      padding: 17px 0; }
+  .content.index-content .section-4 .soft-intro {
+    padding-left: 15px; }
 .content.index-content .section-4-bottom {
   padding: 50px 100px 0 100px; }
   .content.index-content .section-4-bottom h3 {
@@ -128,10 +158,11 @@ img {
     width: 190px; }
 
 .content.products-content {
-  padding-top: 50px; }
+  margin-top: 100px;
+  padding-top: 0; }
   .content.products-content .section-1 {
     background: url(../img/products-1.jpg) no-repeat center center;
-    min-height: 630px;
+    min-height: 700px;
     border-bottom: 1px solid #fb3338; }
   .content.products-content .cover-img {
     padding: 0;
@@ -149,17 +180,18 @@ img {
       padding-left: 100px;
       padding-bottom: 100px; }
       .content.products-content .section-2 .usee-des-text p {
-        font-size: 18px;
-        line-height: 35px; }
+        font-size: 16px;
+        line-height: 40px; }
 
 .content.customers-content {
-  padding-top: 50px; }
+  margin-top: 100px;
+  padding-top: 0; }
   .content.customers-content .section-1 {
     background: url(../img/customers1.jpg) no-repeat center center;
-    min-height: 630px;
+    min-height: 400px;
     border-bottom: 1px solid #fb3338; }
   .content.customers-content .section-2-bottom {
-    background: url(../img/customers2.jpg) no-repeat center center;
+    background: url(../img/customers-di1.jpg) no-repeat center center;
     min-height: 410px;
     border-bottom: 1px solid #fb3338; }
   .content.customers-content .cover-img {
@@ -170,7 +202,7 @@ img {
   .content.customers-content .section-2 {
     padding: 50px 100px 0 100px; }
     .content.customers-content .section-2 h2 {
-      padding-top: 110px;
+      padding-top: 50px;
       padding-bottom: 55px; }
   .content.customers-content .section-2-bottom {
     padding: 50px 100px 0 100px; }
@@ -180,14 +212,19 @@ img {
       width: 190px; }
   .content.customers-content .section-3 {
     padding-bottom: 140px; }
+    .content.customers-content .section-3 p {
+      color: #888888; }
+    .content.customers-content .section-3 img {
+      height: 0px; }
   .content.customers-content .customers-item {
     padding: 50px 110px 0 110px; }
 
 .content.about-content {
-  padding-top: 50px; }
+  margin-top: 100px;
+  padding-top: 0; }
   .content.about-content .section-1 {
     background: url(../img/about1.jpg) no-repeat center center;
-    min-height: 630px;
+    min-height: 400px;
     border-bottom: 1px solid #fb3338; }
   .content.about-content .cover-img {
     padding: 0;
@@ -196,6 +233,8 @@ img {
     -moz-background-size: cover; }
   .content.about-content .section-2 {
     padding: 100px; }
+    .content.about-content .section-2 .line-he {
+      line-height: 24px; }
     .content.about-content .section-2 h2 span {
       font-size: 14px; }
     .content.about-content .section-2 img {
@@ -210,17 +249,26 @@ img {
       width: 100px;
       height: 100px;
       margin: 0; }
+    .content.about-content .section-2 .qr-intro {
+      font-size: 12px;
+      color: #888888; }
 
 .content.contact-content {
-  padding-top: 50px; }
+  margin-top: 100px;
+  padding-top: 0; }
   .content.contact-content .section-1 {
     background: url(../img/contact1.jpg) no-repeat center center;
-    min-height: 630px;
+    min-height: 400px;
     border-bottom: 1px solid #fb3338; }
   .content.contact-content .cover-img {
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover; }
+  .content.contact-content .section-2 {
+    padding: 100px 0 100px 50px; }
+    .content.contact-content .section-2 p {
+      line-height: 28px;
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
