@@ -30,8 +30,11 @@ img {
   background-color: transparent; }
 
 .footer {
-  padding: 50px 90px 100px;
+  padding: 50px;
   background-color: #ebebeb; }
+  @media (min-width: 768px) {
+    .footer {
+      padding: 50px 90px 100px; } }
   .footer .item-content {
     padding: 10px; }
   .footer h3 {
@@ -77,6 +80,9 @@ img {
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover; }
+  .content.consulting-content .section-2 .cover-img {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%; }
   .content.consulting-content h2 {
     color: #fb3338;
     margin-top: 90px;
@@ -140,7 +146,10 @@ img {
   background-size: cover;
   -moz-background-size: cover; }
 .content.index-content .section-4 {
-  padding: 50px 100px 0 100px; }
+  padding: 50px; }
+  @media (min-width: 768px) {
+    .content.index-content .section-4 {
+      padding: 50px 100px 0 100px; } }
   .content.index-content .section-4 .purpose-item {
     margin-bottom: 30px; }
     .content.index-content .section-4 .purpose-item h3 {
@@ -169,6 +178,9 @@ img {
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover; }
+  .content.products-content .cover-img {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%; }
   .content.products-content .section-2 {
     padding-top: 60px; }
     .content.products-content .section-2 img {
@@ -217,7 +229,10 @@ img {
     .content.customers-content .section-3 img {
       height: 0px; }
   .content.customers-content .customers-item {
-    padding: 50px 110px 0 110px; }
+    padding: 50px 50px 0; }
+    @media (min-width: 768px) {
+      .content.customers-content .customers-item {
+        padding: 50px 110px 0 110px; } }
 
 .content.about-content {
   margin-top: 100px;
@@ -232,7 +247,10 @@ img {
     background-size: cover;
     -moz-background-size: cover; }
   .content.about-content .section-2 {
-    padding: 100px; }
+    padding: 50px; }
+    @media (min-width: 768px) {
+      .content.about-content .section-2 {
+        padding: 100px; } }
     .content.about-content .section-2 .line-he {
       line-height: 24px; }
     .content.about-content .section-2 h2 span {
