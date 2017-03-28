@@ -23,6 +23,9 @@ img {
 .float-right {
   float: right; }
 
+.po-relative {
+  position: relative; }
+
 .consulting-body li.consulting a, .index-body li.home a,
 .products-body li.products a, .customers-body li.customers a,
 .about-body li.about a, .contact-body li.contact a {
@@ -80,6 +83,12 @@ img {
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover; }
+    @media (min-width: 768px) {
+      .content.consulting-content .section-2 .cover-img {
+        min-height: 600px; } }
+    @media (min-width: 992px) {
+      .content.consulting-content .section-2 .cover-img {
+        min-height: 700px; } }
   .content.consulting-content .cover-img {
     padding: 0;
     -webkit-background-size: cover;
@@ -87,12 +96,38 @@ img {
     -moz-background-size: cover; }
   .content.consulting-content .section-2 .cover-img {
     padding-top: 130px;
-    padding-bottom: 130px; }
+    padding-bottom: 50px; }
+    @media (min-width: 768px) {
+      .content.consulting-content .section-2 .cover-img {
+        padding-bottom: 0px; } }
+    @media (min-width: 992px) {
+      .content.consulting-content .section-2 .cover-img {
+        padding-bottom: 130px; } }
   .content.consulting-content .section-2 h3 {
     border: 1px solid #fb3338;
     height: 220px;
     width: 220px;
-    line-height: 220px; }
+    line-height: 220px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    @media (min-width: 992px) {
+      .content.consulting-content .section-2 h3 {
+        position: relative;
+        left: 0;
+        right: 0;
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0); } }
+  .content.consulting-content .section-2 .po-relative {
+    min-height: 240px; }
   @media (min-width: 992px) {
     .content.consulting-content .section-2 h3 {
       position: relative; }
@@ -196,7 +231,27 @@ img {
   .content.index-content .section-4-bottom h3 {
     border: 2px solid #fb3338;
     line-height: 190px;
-    width: 190px; }
+    width: 190px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    @media (min-width: 768px) {
+      .content.index-content .section-4-bottom h3 {
+        position: relative;
+        left: 0;
+        right: 0;
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0); } }
+  .content.index-content .section-4-bottom .po-relative {
+    min-height: 220px; }
 
 .content.products-content {
   margin-top: 100px;
@@ -249,11 +304,34 @@ img {
       padding-top: 50px;
       padding-bottom: 55px; }
   .content.customers-content .section-2-bottom {
-    padding: 50px 100px 0 100px; }
+    padding: 100px 100px 0 100px; }
+    @media (min-width: 992px) {
+      .content.customers-content .section-2-bottom {
+        padding-top: 50px; } }
     .content.customers-content .section-2-bottom h3 {
       border: 1px solid #fb3338;
       line-height: 190px;
-      width: 190px; }
+      width: 190px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      @media (min-width: 992px) {
+        .content.customers-content .section-2-bottom h3 {
+          position: relative;
+          left: 0;
+          right: 0;
+          -webkit-transform: translate(0, 0);
+          -moz-transform: translate(0, 0);
+          -ms-transform: translate(0, 0);
+          -o-transform: translate(0, 0);
+          transform: translate(0, 0); } }
+    .content.customers-content .section-2-bottom .po-relative {
+      min-height: 220px; }
   .content.customers-content .section-3 {
     padding-bottom: 140px; }
     .content.customers-content .section-3 p.sub-p {
