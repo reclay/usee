@@ -136,6 +136,22 @@ img {
     background: url(../img/index1.jpg) no-repeat center center; }
   .content.index-content .section-1 .item-2 {
     background: url(../img/index2.jpg) no-repeat center center; }
+  .content.index-content .section-1 .item-3 {
+    height: 700px;
+    padding: 0 200px !important;
+    position: relative; }
+    .content.index-content .section-1 .item-3 .po-relative {
+      height: 700px; }
+    .content.index-content .section-1 .item-3 .po-place {
+      display: inline-block;
+      height: 700px;
+      width: 1px;
+      visibility: hidden;
+      vertical-align: middle; }
+    .content.index-content .section-1 .item-3 video {
+      width: calc( 100% - 10px );
+      height: auto;
+      vertical-align: middle; }
   .content.index-content .section-1 .item {
     min-height: 700px;
     padding: 0;
