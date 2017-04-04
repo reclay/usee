@@ -260,9 +260,13 @@ img {
     position: absolute;
     border-radius: 5px; }
   .content.products-content .section-1 .pro-img {
-    text-align: center; }
+    text-align: center;
+    padding-top: 100px; }
+    @media (min-width: 768px) {
+      .content.products-content .section-1 .pro-img {
+        padding-top: 0; } }
     .content.products-content .section-1 .pro-img img {
-      height: 700px;
+      height: 500px;
       width: auto;
       max-width: 100%; }
       @media (min-width: 768px) {

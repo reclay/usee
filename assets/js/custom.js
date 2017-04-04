@@ -7,9 +7,11 @@ $(function () {
     });
     if ($(".products-body").length === 1) {
         countWH();
-        setTimeout(function () {
-            countWH();
-        },3000);
+        window.onload=function () {
+            setTimeout(function () {
+                countWH();
+            },1000);
+        };
         $(window).resize(function () {
             countWH();
         });
