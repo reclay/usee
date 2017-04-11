@@ -33,9 +33,11 @@ img {
 .consulting-body li.consulting a, .index-body li.home a,
 .products-body li.products a, .customers-body li.customers a,
 .about-body li.about a, .contact-body li.contact a {
-  border-bottom: 3px solid #fb3338;
-  color: #fb3338;
+  border-bottom: 2px solid #fb3338;
   background-color: transparent; }
+
+.job-body .job-nav, .report-body .report-nav, .contact-body .contact-nav {
+  color: #fb3338; }
 
 .footer {
   padding: 45px;
