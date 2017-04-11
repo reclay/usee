@@ -7,3 +7,4 @@ npm-debug.*
 assets/css/.sass-cache/
 assets/css/sass/
 assets/video
+test/

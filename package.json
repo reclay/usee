@@ -1,0 +1,20 @@
+{
+  "name": "learnBuild",
+  "version": "0.0.1",
+  "description": "learn build, use grunt, gulp, npm script",
+  "author": "reclay<2868902382@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reclay/build"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "node npmbuild/dev-server.js",
+    "build": "node npmbuild/build.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
