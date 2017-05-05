@@ -16,6 +16,7 @@ $(function () {
             countWH();
         });
     }
+    $("#carousel-example-generic").carousel('pause');
 });
 
 function countWH() {

@@ -1,5 +1,7 @@
 var gulp=require('gulp');
 var concat=require("gulp-concat");
+var watch=require("gulp-watch");
+var scss=require("gulp-scss");
 
 var componentDir="component/";
 var contentDir="component/content/";
@@ -22,7 +24,15 @@ gulp.task("build",function () {
         .pipe(gulp.dest("./"))
   }
 });
-
+gulp.task("scss",function () {
+  gulp.src("assets/css/sass/*.scss")
+      .pipe(scss())
+      .pipe(gulp.dest("assets/css"));
+});
+gulp.task("watch",function () {
+  gulp.watch('component/**/*.html',["build"]);
+  gulp.watch('assets/css/sass/**/*.scss',["scss"]);
+});
 gulp.task('default',function () {
   gulp.run('build');
 });

@@ -5009,8 +5009,8 @@ html, body {
 
 .navbar {
   background-color: #fff;
-  min-height: 100px;
-  padding-top: 22px;
+  min-height: 80px;
+  padding-top: 12px;
   padding-left: 40px;
   padding-right: 40px; }
   .navbar .navbar-header .logo {
@@ -5053,14 +5053,33 @@ a:hover, a:focus {
   text-decoration: none; }
 
 .carousel-indicators li {
+  background-color: #fff;
+  height: 2px;
+  border-radius: 0;
+  width: 30px;
   opacity: 0.6;
-  background-color: #fb3338; }
+  margin: 0; }
 
 .carousel-indicators .active {
   opacity: 1;
-  background-color: #fb3338; }
+  background-color: #fff;
+  height: 2px;
+  width: 30px; }
 
 .carousel-indicators li {
   border-color: transparent; }
 
-/*# sourceMappingURL=bootstrap.css.map */
+@-webkit-keyframes rotate-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes rotate-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

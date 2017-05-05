@@ -8,3 +8,5 @@ assets/css/.sass-cache/
 assets/css/sass/
 assets/video
 test/
+.sass-cache/
+.gulp-scss-cache/
