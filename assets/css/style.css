@@ -145,6 +145,9 @@ img {
   .content.index-content .section-1 .item-3 {
     height: 700px;
     background-color: #575757; }
+  .content.index-content .section-1 #video-index {
+    height: 100%;
+    width: auto; }
   .content.index-content .section-1 .item {
     min-height: 700px;
     padding: 0;
@@ -162,6 +165,14 @@ img {
     opacity: 0.8; }
     .content.index-content .section-1 .custom-carousel-caption h2 {
       font-weight: 100; }
+  .content.index-content .section-1 .carousel-control {
+    bottom: 40px; }
+  .content.index-content .section-1 .vjs-control-bar {
+    left: 15%;
+    right: 15%;
+    width: 70%; }
+  .content.index-content .section-1 .vjs-paused .vjs-big-play-button {
+    display: block; }
 .content.index-content .section-2 {
   margin-top: 100px;
   padding-bottom: 50px;
@@ -282,10 +293,58 @@ img {
     .content.index-content .section-5 .animation-container .third {
       top: 60px; }
     .content.index-content .section-5 .animation-container p {
-      padding-top: 128px; }
+      padding-top: 128px;
+      position: relative;
+      z-index: 20; }
   .content.index-content .section-5 .h-30 {
     height: 30px; }
-
+.content.index-content .section-test {
+  padding: 100px; }
+  .content.index-content .section-test .circle_process {
+    position: relative;
+    width: 199px;
+    height: 200px; }
+  .content.index-content .section-test .circle_process .wrapper {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    overflow: hidden; }
+  .content.index-content .section-test .circle_process .right {
+    right: 0; }
+  .content.index-content .section-test .circle_process .left {
+    left: 0; }
+  .content.index-content .section-test .circle_process .circle {
+    width: 160px;
+    height: 160px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transform: rotate(-135deg); }
+  .content.index-content .section-test .circle_process .rightcircle {
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    right: 0;
+    -webkit-animation: circle_right 5s linear; }
+  .content.index-content .section-test .circle_process .leftcircle {
+    border-bottom: 2px solid green;
+    border-left: 2px solid green;
+    left: 0;
+    -webkit-animation: circle_left 5s linear; }
+@-webkit-keyframes circle_right {
+  0% {
+    -webkit-transform: rotate(-135deg); }
+  50%,100% {
+    -webkit-transform: rotate(45deg); } }
+@-webkit-keyframes circle_left {
+  0%,50% {
+    -webkit-transform: rotate(-135deg); }
+  100% {
+    -webkit-transform: rotate(45deg); } }
+@keyframes rotation {
+  to {
+    transform: rotate(360deg); } }
 .content.products-content .section-1 {
   min-height: 700px;
   border-bottom: 1px solid #fb3338;

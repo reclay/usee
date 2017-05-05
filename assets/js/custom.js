@@ -7,16 +7,31 @@ $(function () {
     });
     if ($(".products-body").length === 1) {
         countWH();
-        window.onload=function () {
+        window.onload = function () {
             setTimeout(function () {
                 countWH();
-            },1000);
+            }, 1000);
         };
         $(window).resize(function () {
             countWH();
         });
     }
-    $("#carousel-example-generic").carousel('pause');
+    var timeId = "";
+    // setTimeout(function(){
+    //     $("#carousel-example-generic").carousel('pause');
+    // },1000);
+    var player = videojs('video-index');
+    player.on('play', function () {
+        $("#carousel-example-generic").carousel('pause');
+        if(timeId){
+            window.clearTimeout(timeId);
+        }
+    });
+    player.on('pause', function () {
+        timeId=setTimeout(function () {
+            $("#carousel-example-generic").carousel('cycle');
+        },3000);
+    });
 });
 
 function countWH() {
