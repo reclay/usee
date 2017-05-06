@@ -166,7 +166,21 @@ img {
     .content.index-content .section-1 .custom-carousel-caption h2 {
       font-weight: 100; }
   .content.index-content .section-1 .carousel-control {
-    bottom: 40px; }
+    bottom: 40px;
+    display: none; }
+  .content.index-content .section-1 .control-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px; }
+    .content.index-content .section-1 .control-wrapper.right {
+      right: 0;
+      left: auto; }
+      .content.index-content .section-1 .control-wrapper.right:hover .right.carousel-control {
+        display: block; }
+    .content.index-content .section-1 .control-wrapper.left:hover .left.carousel-control {
+      display: block; }
   .content.index-content .section-1 .vjs-control-bar {
     left: 15%;
     right: 15%;
@@ -174,12 +188,12 @@ img {
   .content.index-content .section-1 .vjs-paused .vjs-big-play-button {
     display: block; }
 .content.index-content .section-2 {
-  margin-top: 100px;
-  padding-bottom: 50px;
+  margin-top: 130px;
+  padding-bottom: 110px;
   background-color: whitesmoke; }
   .content.index-content .section-2 h2 {
     background-color: #fff;
-    padding-bottom: 40px; }
+    padding-bottom: 50px; }
   .content.index-content .section-2 .imgs {
     font-size: 0;
     text-align: center; }
@@ -223,10 +237,11 @@ img {
       .content.index-content .section-2 .time-list .list-item.last-item {
         padding-bottom: 0; }
 .content.index-content .section-4 {
-  padding-top: 100px;
-  padding-bottom: 70px; }
+  padding-top: 130px;
+  padding-bottom: 110px; }
   .content.index-content .section-4 h2 {
-    margin-bottom: 40px; }
+    margin-top: 0;
+    margin-bottom: 50px; }
   .content.index-content .section-4 .img-items {
     font-size: 0;
     text-align: center; }
@@ -268,14 +283,14 @@ img {
         margin-left: -28px;
         margin-top: -10px; }
 .content.index-content .section-5 {
-  padding-bottom: 80px;
+  padding-bottom: 110px;
   background-color: whitesmoke; }
   .content.index-content .section-5 h2 {
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 130px;
+    padding-bottom: 30px;
     margin: 0; }
   .content.index-content .section-5 .sub-title {
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
   .content.index-content .section-5 .animation-container {
     height: 190px;
     position: relative; }
@@ -289,13 +304,14 @@ img {
       -o-transform: translate(-50%, 0);
       transform: translate(-50%, 0); }
     .content.index-content .section-5 .animation-container .intro-img {
-      top: 30px; }
+      top: 35px; }
     .content.index-content .section-5 .animation-container .third {
-      top: 60px; }
+      top: 65px; }
     .content.index-content .section-5 .animation-container p {
-      padding-top: 128px;
+      padding-top: 135px;
       position: relative;
-      z-index: 20; }
+      z-index: 20;
+      margin-bottom: 0; }
   .content.index-content .section-5 .h-30 {
     height: 30px; }
 .content.index-content .section-test {
